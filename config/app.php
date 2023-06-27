@@ -211,5 +211,9 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
+    
+    //画面真っ白用、エラーのブラウザ表示
+    'env' => env('APP_ENV', 'local'),
+    'debug' => env('APP_DEBUG', false),
 
 ];

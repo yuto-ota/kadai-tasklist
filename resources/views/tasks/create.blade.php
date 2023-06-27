@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="prose ml-4">
-        <h2>メッセージ新規作成ページ</h2>
+        <h2>タスク新規追加ページ</h2>
     </div>
 
     <div class="flex justify-center">
@@ -24,7 +24,7 @@
                     <input type="text" name="content" class="input input-bordered w-full">
                 </div>
 
-            <button type="submit" class="btn btn-primary btn-outline">投稿</button>
+            <button type="submit" class="btn btn-primary btn-outline">追加</button>
         </form>
     </div>
 @endsection
